@@ -42,4 +42,10 @@ public class Celular extends Dispositivo { // INICIO DE LA CLASE Celular;
         System.out.println("LLAMANDO...");
     }
 
+    public String mostrarInformacion(){ // MOSTRAR INFORMACIÓN;
+        return super.mostrarInformacion()
+     +   "Huella En la pantalla: " + this.huellaEnLaPantalla + 
+     "\n5G: " + this.cincoG + "\nTamaño de pantalla: " + this.tamanioPantalla;                   
+    }
+
 } // FIN DE LA CLASE Celular;

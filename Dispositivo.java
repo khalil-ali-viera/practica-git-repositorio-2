@@ -88,7 +88,7 @@ public class Dispositivo { // INICIO DE LA CLASE Dispositivo;
     }
 
     public String mostrarInformacion(){ // MOSTRAR INFORMACIÓN;
-        return "Marca: " + this.marca + "\n Modelo: " + this.modelo +
+        return "Marca: " + this.marca + "\nModelo: " + this.modelo +
         "\nColor: " + this.color + "\nPeso: " + this.peso;                   
     }
 
